@@ -60,3 +60,37 @@ These do not map to any real systems or accounts.
 ### 4. Fake Corporate Structure
 Located under `/opt/corp/` to simulate internal IT infrastructure:
 
+/opt/corp/
+ ├── Config/
+ ├── Secrets/
+ ├── Systems/
+ └── Network/
+
+This structure provides context for lateral movement attempts.
+
+---
+
+## Purpose
+This environment supports:
+
+- Studying attacker behavior  
+- Logging malicious activity  
+- Feeding SIEM/SOC pipelines  
+- Training AI-based detection and analysis tools  
+- Practicing deception engineering  
+
+No production data is involved.
+
+---
+
+## Important Notes
+
+- All files and credentials are intentionally fake  
+- No real sensitive data is stored  
+- Do not add real corporate or personal data  
+- Environment is strictly for security research  
+
+---
+
+
+
